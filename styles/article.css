@@ -22,7 +22,7 @@
 }
 
 .title-button a::after{
-    content: url(/img/icons/ic-arrow-right.png) ;
+    content: url(./../img/icons/ic-arrow-right.png) ;
     margin: 0 0 0 5px;
 }
 
