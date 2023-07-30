@@ -1,0 +1,73 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+@import url(./catalog.css);
+@import url(./hero.css);
+@import url(./home-office.css);
+@import url(./for-gaming.css);
+@import url(./top-product.css);
+@import url(./article.css);
+
+
+.container{
+    margin: 0 auto;
+    max-width: 1600px;
+    margin: 0 160px;
+}
+
+
+.section-title{
+    font-family: 'Gotham';
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+.section-title-2{
+    font-family: 'Gotham';
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    margin-bottom: 32px;
+    
+}
+@media(max-width:1366px){
+    .container{
+        max-width: 1200px;
+        margin: 0 85px;
+        min-height: 100%;
+    }
+}
+@media(max-width:1040px){
+    .container{
+        max-width: 1200px;
+        margin: 0 40px;
+    }
+}
+@media(max-width:950px){
+    .container{
+        max-width: 1200px;
+        margin: 0 16px;
+    }
+}
+@media(max-width:768px){
+    .section-title,.section-title-2{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:650px){
+    .container{
+        max-width: 1200px;
+        margin: 0 10px;
+    }
+}
+@media(max-width:550px) {
+
+    .section-title {
+        text-align: center;
+    }
+    .section-title-2 {
+        text-align: center;
+    }
+}

@@ -1,0 +1,151 @@
+
+.hero {
+    margin-top: 40px;
+}
+
+.hero-container{
+    max-width: 100%;
+    max-height: 650px;    
+    background: #2F3133;
+    border-radius: 16px;
+    padding-left: 40px;
+    padding-right: 97px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+
+.hero-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+}
+
+.hero-items__img{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.wrapper-img{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-items__text {
+    font-family: 'Gotham';
+}
+
+.hero-items__title {
+    font-size: 68px;
+    font-weight: 400;
+    max-width: 490px;
+    letter-spacing: -2px;
+    color: #fff;
+}
+
+.hero-items__subtitle {
+    font-size: 68px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    color: #fff;
+    border-radius: 16px;
+    background: #7858F1;
+    padding: 8px 24px;
+    width: 450px;
+}
+.bullets-position {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+}
+
+.swiper-pagination {
+    position: absolute;
+    margin-top: 40px;
+    left: 0;
+    width: 100%;
+}
+
+.swiper-pagination-bullets {
+    --swiper-theme-color: #F97988;
+    color: var(--swiper-theme-color);
+
+}
+@media(min-width:1366px){
+  .hero-container {
+        height: 600px;
+    }
+}
+@media(max-width:1366px){
+  .hero-container {
+        height: 480px;
+    }
+    .hero-items__title {
+        font-size: 50px;
+    }
+
+    .hero-items__subtitle {
+        font-size: 50px;
+        width: 330px;
+    }
+}
+
+@media(max-width:800px){
+  .hero-container {
+        height: 320px;
+    }
+
+     .hero-items__title {
+         font-size: 45px;
+     }  
+     .hero-items__subtitle {
+         font-size: 45px;
+         width: 320px;
+     }
+    .swiper-slide img {
+        width: 500px;
+    }
+}
+ 
+@media(max-width:600px){
+    .hero-items__img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .hero-container {
+        height: 550px;
+            padding: 0;
+        }
+    .hero-items {
+        display: block;
+    }
+
+    .hero-items__text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-items__title {
+        padding: 20px;
+        width: 100%;
+        font-size: 40px;
+    }
+    .hero-items__subtitle {
+        max-width: 300px;
+        margin-bottom: 20px;
+        font-size: 40px;
+        width: 280px;
+    }
+    .swiper-slide img {
+        width: 100%;
+    }
+} 
+
+
+
