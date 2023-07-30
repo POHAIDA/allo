@@ -190,9 +190,9 @@
         padding: 0;
     }
 }
-@media(max-width:375px) {
+@media(max-width:350px) {
     .hero-container {
-        height: 388px;
+        height: 390px;
         padding: 0;
     }
 }
