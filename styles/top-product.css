@@ -73,6 +73,7 @@
 @media(max-width:450px){
     .top-product {
         margin-top: 100px;
+        margin-bottom: 80px;
     }
 }
 @media(max-width:350px){
