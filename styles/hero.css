@@ -95,6 +95,9 @@
 }
 
 @media(max-width:800px){
+    .hero {
+        margin-top: 20px;
+    }
   .hero-container {
         height: 320px;
     }
@@ -112,6 +115,9 @@
 }
  
 @media(max-width:600px){
+    .hero {
+            margin-top: 10px;
+        }
     .hero-items__img {
         display: flex;
         justify-content: center;
