@@ -13,6 +13,10 @@
      cursor: pointer;
      padding-bottom: 10px;
  }
+ .game-card:hover{
+    background: #7858F1;
+    transition: all 0.3s ease;
+ }
 
 .game-column{
     max-height: 1000px;
@@ -41,7 +45,6 @@
 
  .game-card1 {
      height: 60%;
-     background: #7858F1;
  }
 
  .game-card2 {
@@ -75,6 +78,7 @@
      width: 90%;
      height: 80%; 
  }
+ 
 
  .game-card-items__text {
      font-family: "Gotham";
@@ -87,13 +91,13 @@
  @media(max-width:950px) {
     .game-card1 {
             height: 60%;
-            background: #252A2C;
         }
     .game-card1 img{
             height: 85%;
-            width: 80%;
+            width: 75%;
             
         }
+
     .game-card4 img{
             height: 70%;
             width: 100%;

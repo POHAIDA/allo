@@ -1,5 +1,6 @@
 @import url(./reset.css);
 @import url(./fonts.css);
+@import url(./modal.css);
 @import url(./catalog.css);
 @import url(./hero.css);
 @import url(./home-office.css);
@@ -7,11 +8,11 @@
 @import url(./top-product.css);
 @import url(./article.css);
 
-
 .container{
     margin: 0 auto;
     max-width: 1600px;
     margin: 0 160px;
+    
 }
 
 
