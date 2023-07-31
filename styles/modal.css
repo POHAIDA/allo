@@ -7,7 +7,7 @@
 }
 .catalog-item1:hover > .modal-list{
     left: auto;
-    right: 0;
+    right: -5px;
 }
 .modal-list{
     display: block;
@@ -79,6 +79,10 @@
     }
 }
 @media(max-width:560px){
+    .catalog-item1:hover>.modal-list {
+            left: auto;
+            right: 0;
+        }
     .modal-list {
         position: fixed;
         top: 40px;
