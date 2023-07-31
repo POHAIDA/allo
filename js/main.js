@@ -138,54 +138,8 @@ window.addEventListener("resize", toggleActiveArticle);
 
 
 
-//hover dropdown list step
 
-  $(document).ready(function () {
-    const catalogItems = $(".catalog-item");
-    const initialLeft = -5;
-
-    const stepByScreenWidth = {
-      300:20,
-      400:30,
-      500: 27, 
-      700: 33, 
-      800: 25, 
-      900: 27, 
-      1200: 25, 
-      1600: 10, 
-      1920: 4, 
-    };
-
-    function calculateStep() {
-      const windowWidth = $(window).width();
-      let step = 10; 
-      for (const screenWidth in stepByScreenWidth) {
-        if (windowWidth < parseInt(screenWidth)) {
-          step = stepByScreenWidth[screenWidth];
-          break;
-        }
-      }
-      return step;
-    }
-
-    catalogItems.hover(
-      function () {
-        const currentIndex = catalogItems.index(this);
-        const step = calculateStep();
-        const newLeft = initialLeft - currentIndex * step;
-        $(this)
-          .find(".modal-list")
-          .css("left", newLeft + "px");
-      },
-      function () {
-        $(this)
-          .find(".modal-list")
-          .css("left", initialLeft + "px");
-      }
-    );
-
-    $(window).resize(function () {
-      catalogItems.trigger("mouseleave");
-    });
-  });
+  
+  
+  
 
